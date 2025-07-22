@@ -38,10 +38,10 @@ You can download the source with [Git] (and get updates easily) or you can downl
 If you want to download with Git, a bash command to do so is found below:
 ```sh
 # with SSH (requires public key to be set)
-git clone "git@github.com:SebOuellette/LiveBot.git"
+git clone "git@github.com:viomod/LiveBot.git"
 
 # with HTTP
-git clone "https://github.com/SebOuellette/LiveBot.git"
+git clone "https://github.com/viomod/LiveBot.git"
 ```
 
 #### Step 2
