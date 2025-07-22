@@ -23,9 +23,7 @@ async function addGuilds() {
     let lastGuild = cachedGuilds.length ? cachedGuilds[0][1] : null;
 
     await bot.guilds.cache
-        .filter((g) =>
-            bot.hideUnallowed ? g.members.cache.get(bot.owner.id) : g
-        )
+        .filter(() => true)
         .forEach(async (g) => {
             // Check if the guild is available first, if it's not then remove it
             if (!g.available) {
